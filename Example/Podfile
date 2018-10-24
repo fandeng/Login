@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Login_Tests' do
+  pod 'Login', :path => '../'
+  
+  
+end
