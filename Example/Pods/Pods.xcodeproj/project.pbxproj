@@ -10,6 +10,8 @@
 		32823FF47099DF12877BCD5E5BCFA8A8 /* Pods-Login_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C94E17F1D008F703095559B7275ACA /* Pods-Login_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37903C533FDE2437059DAE196785B6C7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF54F6695DF27FB599E34A1BA7E5BA2 /* ReplaceMe.m */; };
 		4D133C7B7C7C5B3F2CD86D0EA2671625 /* Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1C99DDC460CFA3388001EC2E6DBDFE /* Login-dummy.m */; };
+		6B02FFB121801CD1000AA6C5 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B02FFAE21801CD1000AA6C5 /* LoginViewController.h */; };
+		6B02FFB221801CD1000AA6C5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B02FFAF21801CD1000AA6C5 /* LoginViewController.m */; };
 		6EE96C75BE4801A92DA023A55EF58F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		86328318B5D73B5B29FAF0CE0901E6D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B3A95B48F55A4721967D9D02205C57EF /* Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB92EAE334405B2EB29FC85AA5E731 /* Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +39,9 @@
 		63D1490CFAC0FF0509E79A6783C25948 /* Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		675F4C3F9BD6F975B0615E2D4297A8AA /* Pods-Login_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B02FFAE21801CD1000AA6C5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6B02FFAF21801CD1000AA6C5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6B02FFB021801CD1000AA6C5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		70C2EAB1409B509C1247CBFDA6C12268 /* Pods-Login_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Login_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		73BB92EAE334405B2EB29FC85AA5E731 /* Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-umbrella.h"; sourceTree = "<group>"; };
 		74AA8CDA7B9635CE325F06B507E6F182 /* Pods-Login_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login_Tests.modulemap"; sourceTree = "<group>"; };
@@ -84,6 +89,9 @@
 		0D0C31999A37A288C1D1752453CA4086 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				6B02FFAE21801CD1000AA6C5 /* LoginViewController.h */,
+				6B02FFAF21801CD1000AA6C5 /* LoginViewController.m */,
+				6B02FFB021801CD1000AA6C5 /* LoginViewController.xib */,
 				1AF54F6695DF27FB599E34A1BA7E5BA2 /* ReplaceMe.m */,
 				A959C3C72023F8200EDE90270B4CBA21 /* Pod */,
 				11A7F0A0B46F6E0B8917B79A04441120 /* Support Files */,
@@ -194,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A95B48F55A4721967D9D02205C57EF /* Login-umbrella.h in Headers */,
+				6B02FFB121801CD1000AA6C5 /* LoginViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +278,7 @@
 			files = (
 				4D133C7B7C7C5B3F2CD86D0EA2671625 /* Login-dummy.m in Sources */,
 				37903C533FDE2437059DAE196785B6C7 /* ReplaceMe.m in Sources */,
+				6B02FFB221801CD1000AA6C5 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

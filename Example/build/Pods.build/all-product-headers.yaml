@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/fandeng/Login/Example/build/Debug-iphoneos/Login/Login.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Login-Swift.h",
+          'external-contents': "/Users/fandeng/Login/Example/build/Debug-iphoneos/Login/Login.framework/Headers/Login-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Login-umbrella.h",
+          'external-contents': "/Users/fandeng/Login/Example/Pods/Target Support Files/Login/Login-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fandeng/Login/Example/build/Debug-iphoneos/Login/Login.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fandeng/Login/Example/build/Pods.build/Debug-iphoneos/Login.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
